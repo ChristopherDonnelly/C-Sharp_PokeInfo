@@ -1,0 +1,16 @@
+@{
+    ViewData["Title"] = "PokeInfo";
+}
+
+
+    <div class="row">
+        <div class="col-xs-4">
+            <img src="@ViewData["img"]" />
+        </div>
+        <div class="col-xs-8">
+            <p class="text-capitalize">Name: @ViewData["name"]</p>
+            <p class="text-capitalize">Type(s): @ViewData["type"]</p>
+            <p>Height: @ViewData["height"]</p>
+            <p>Weight: @ViewData["weight"]</p>
+        </div>
+    </div>
